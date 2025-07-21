@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Matairs</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Matairs template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<ink rel="stylesheet" type="text/css" href="plugins/fontawesome-6.7.2/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+		<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+		<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+		<link href="plugins/jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		<!-- SEO META Tambahan -->
+		<meta name="author" content="Matairs Podcast">
+		<meta name="keywords"
+			content="Podcast Indonesia, Matairs Podcast, podcast hiburan, podcast sosial, podcast bisnis, podcast pendidikan, podcast inspiratif, konten audio Indonesia">
+		<meta name="robots" content="index, follow">
+		<meta name="language" content="id">
+		<meta name="revisit-after" content="7 days">
+		<meta name="rating" content="general">
+		<meta name="distribution" content="global">
+
+		<!-- Open Graph (Facebook, LinkedIn) -->
+		<meta property="og:title" content="Matairs Podcast - Suara Baru Dunia Hiburan, Sosial, Bisnis & Pendidikan">
+		<meta property="og:description"
+			content="Matairs Podcast menyajikan diskusi kritis dan inspiratif seputar hiburan, isu sosial, dunia bisnis, dan pendidikan. Hadirkan wawasan baru setiap minggunya.">
+		<meta property="og:image" content="https://www.matairs.com/images/matairs-og.jpg">
+		<!-- Ganti jika sudah punya banner khusus -->
+		<meta property="og:url" content="https://www.matairs.com/">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Matairs Podcast">
+		<meta property="og:locale" content="id_ID">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Matairs Podcast - Podcast Edukatif & Inspiratif Indonesia">
+		<meta name="twitter:description"
+			content="Podcast dengan sudut pandang segar tentang hiburan, sosial, bisnis, dan pendidikan. Saksikan di YouTube & dengarkan kami di semua platform.">
+		<meta name="twitter:image" content="https://www.matairs.com/images/matairs-twitter.jpg">
+		<!-- Ganti sesuai banner -->
+		<meta name="twitter:site" content="@matairsdotco"> <!-- Tidak perlu centang biru, tetap bagus untuk branding -->
+
+		<!-- Social Profiles Structured Data (schema.org) -->
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Matairs Podcast",
+  "url": "https://www.matairs.com/",
+  "sameAs": [
+    "https://www.instagram.com/matairsdotco/",
+    "https://www.youtube.com/@Matairdotco"
+  ],
+  "logo": "https://www.matairs.com/images/logo.png"  <!-- Ganti jika sudah punya logo -->
+}
+</script>
+
+		<!-- Canonical & Favicon -->
+		<link rel="canonical" href="https://www.matairs.com/">
+		<link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<!-- Logo -->
+							<div class="logo">
+								<a href="index.html">
+									<div>Matairs</div>
+									<div><small style="font-size: 12px; font-weight: 300;">Podcast</small></div>
+								</a>
+							</div>
+
+							<!-- Navigation -->
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="index.html">Beranda</a></li>
+									<li><a href="about.html">Tentang Kami</a></li>
+									<li><a href="episodes.html">Episode</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="contact.html">Kontak</a></li>
+								</ul>
+							</nav>
+
+							<!-- Contact Button / CTA -->
+							<div class="reservations_phone ml-auto">
+								Hubungi: <a href="mailto:official@matairs.id"
+									style="color: #fff;">official@matairs.id</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hamburger (Mobile Nav) -->
+		<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+			<div class="hamburger">
+				<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+					<span>menu</span>
+					<div class="hamburger_container">
+						<div class="menu_hamburger">
+							<div class="line_1 hamburger_lines"></div>
+							<div class="line_2 hamburger_lines"></div>
+							<div class="line_3 hamburger_lines"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div class="menu trans_800">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<ul>
+					<li><a href="index.html">Beranda</a></li>
+					<li><a href="about.html">Tentang Kami</a></li>
+					<li><a href="episodes.html">Episode</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Kontak</a></li>
+				</ul>
+			</div>
+			<div class="menu_reservations_phone ml-auto text-center">
+				Hubungi kami: <a href="mailto:official@matairs.id" style="color: #fff;"><u>official@matairs.id</u></a>
+			</div>
+		</div>
+
+
+		<!-- Home -->
+		<div class="home">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/homee.png"
+				data-speed="0.8"></div>
+			<div class="home_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content text-center">
+								<div class="home_subtitle page_subtitle">Selamat Datang di</div>
+								<div class="home_title">
+									<h1>Matairs Podcast</h1>
+								</div>
+								<div class="home_text ml-auto mr-auto">
+									<p>Matairs Podcast menghadirkan pengalaman mendalam dalam dunia hiburan, sosial,
+										bisnis, dan pendidikan. Dengan konten yang relevan, kritis, dan inspiratif, kami
+										menyajikan perspektif segar untuk menjembatani informasi dan perubahan.
+										Dengarkan suara-suara yang membentuk masa depan—hanya di Matairs Podcast.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="scroll_icon"></div>
+		</div>
+
+		<!-- Intro -->
+		<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="intro_content">
+							<div class="intro_subtitle page_subtitle">Temukan Perspektif Baru</div>
+							<div class="intro_title">
+								<h2>Pengalaman Mendalam Bersama Matairs Podcast</h2>
+							</div>
+							<div class="intro_text">
+								<p>Matairs Podcast hadir sebagai ruang dialog dinamis yang membahas isu-isu penting
+									dalam dunia
+									hiburan, sosial, bisnis, dan pendidikan. Dengan pendekatan kritis dan inspiratif,
+									setiap
+									episode dirancang untuk menggugah pemikiran dan membuka wawasan. Jadilah bagian dari
+									perjalanan suara yang membentuk masa depan. Temukan cerita, ide, dan makna di balik
+									setiap
+									perbincangan.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4 col-md-6 intro_col">
+								<div class="intro_image"><img src="images/intro_1.jpg"
+										alt="Podcast tentang hiburan dan sosial oleh Matairs"></div>
+							</div>
+							<div class="col-xl-4 col-md-6 intro_col">
+								<div class="intro_image"><img src="images/intro_2.jpg"
+										alt="Diskusi edukatif dan inspiratif di Matairs Podcast"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Video -->
+		<div class="video_section">
+			<div class="background_image" style="background-image:url(images/video.png)"></div>
+			<div class="video_section_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="video_section_icon"><a class="youtube video_button"
+						href="https://www.youtube.com/embed/T8bT9EyH4PY?autoplay=1&si=8IrvbQDqGiAq7jEY"><i
+							class="fa fa-play" aria-hidden="true"></i></a></div>
+			</div>
+		</div>
+
+		<!-- Signature Segment -->
+
+		<div class="sig">
+			<div class="sig_content_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="sig_content">
+								<div class="sig_subtitle page_subtitle" style="color: chocolate;">Episode Unggulan</div>
+								<div class="sig_title">
+									<h1>Highlight Episode: BOTIK</h1>
+								</div>
+								<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
+									<div class="sig_name">"Koruptor dan Masa Depan Indonesia!!!"</div>
+									<div class="sig_price ml-auto">Episode #07</div>
+								</div>
+								<div class="sig_content_list">
+									<ul class="d-flex flex-row align-items-center justify-content-start">
+										<li>Politik Indonesia</li>
+										<li>Satir Ringan</li>
+										<li>Generasi Muda</li>
+										<li>Kritik Cerdas</li>
+									</ul>
+								</div>
+								<div class="button sig_button trans_200"><a href="#">Dengarkan Sekarang</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sig_image_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7 offset-lg-5">
+							<div class="sig_image">
+								<div class="background_image" style="background-image:url(images/sig.jpg)"></div>
+								<img src="images/sig.jpg" alt="Botik - Bocah Politik Podcast Matairs">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- The Menu -->
+		<!-- The Segments -->
+		<div class="themenu">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="themenu_title_bar_container">
+							<div class="themenu_stars text-center page_subtitle">Top Segments</div>
+							<div class="themenu_rating text-center">
+								<div class="rating_r rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+							<div class="themenu_title_bar d-flex flex-column align-items-center justify-content-center">
+								<div class="themenu_title">Daftar Episode</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- BOTIK -->
+				<div class="row themenu_row">
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title"><span class="title-box"> BOTIK (Bocah Politik)</span></div>
+							<div class="dish_list">
+
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"OUTSOURCING, SOLUSI CERDAS ATAU JALAN PINTAS?"</div>
+										<div class="dish_price">#07</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Satir Politik</li>
+											<li>Generasi Muda</li>
+											<li>Opini Cerdas</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a
+											href="https://youtu.be/zmCr3PSOP1o?si=sWQN9aCsM6ETAJEM">Putar</a></div>
+								</div>
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"Barak Militer Solusi untuk Anak Nakal?"</div>
+										<div class="dish_price">#05</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Pemilu</li>
+											<li>Kritik Halus</li>
+											<li>Realita Politik</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a
+											href="https://youtu.be/fP3rYNOguyk?si=ZSKkm0QjTm8gohzg">Putar</a></div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- SERIS -->
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title">SERIS (Serial Bisnis)</div>
+							<div class="dish_list">
+
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"Masih Takut Mulai Bisnis? Pelajari Dulu SENI BERANI
+											BERBISNIS!"</div>
+										<div class="dish_price">#02</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Strategi UMKM</li>
+											<li>Bisnis Rintisan</li>
+											<li>Wirausaha</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a
+											href="https://youtu.be/Odp4ffxUIf4?si=33-Te9u0Kv9MkhSn">Putar</a></div>
+								</div>
+
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"Bisnis yang Gagal Tapi Berhasil"</div>
+										<div class="dish_price">#04</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Pembelajaran</li>
+											<li>Trial & Error</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a
+											href="https://www.youtube.com/@Matairdotco/videos">Putar</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- BOS -->
+					<div class="col-lg-4 themenu_column">
+						<div class="themenu_col">
+							<div class="themenu_col_title">BOS (Based On Science)</div>
+							<div class="dish_list">
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"MASIH TAKUT NULIS BUKU? BEGINI CARA TEMBUS PENERBIT
+											MAYOR!!!"</div>
+										<div class="dish_price">#08</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Neurosains</li>
+											<li>Teknologi</li>
+											<li>Etika Digital</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a
+											href="https://youtu.be/OA0BaQj7oAY?si=tBxY5xsENn5APdIt">Putar</a></div>
+								</div>
+
+								<div class="dish">
+									<div
+										class="dish_title_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="dish_title">"Mitos atau Fakta: Detoks Digital"</div>
+										<div class="dish_price">#09</div>
+									</div>
+									<div class="dish_contents">
+										<ul>
+											<li>Data & Riset</li>
+											<li>Kesehatan Mental</li>
+										</ul>
+									</div>
+									<div class="dish_order"><a href="#">Putar</a></div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Collaborate With Us -->
+		<div class="reservations text-center">
+			<div class="parallax_background parallax-window" data-parallax="scroll"
+				data-image-src="images/collaborate.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="reservations_content d-flex flex-column align-items-center justify-content-center">
+							<div class="res_stars page_subtitle">Let's Collaborate</div>
+							<div class="res_title">Ajukan Kolaborasi</div>
+
+							<div class="res_form_container mt-3">
+								<form action="#" id="res_form" class="res_form w-100" style="max-width: 800px;">
+									<div class="form-row d-flex flex-wrap justify-content-between">
+										<input type="text" class="res_input mb-3" placeholder="Nama Lengkap" required
+											style="flex: 1 1 30%; min-width: 250px; margin-right: 10px; color: #fff;">
+										<input type="email" class="res_input mb-3" placeholder="Email Aktif" required
+											style="flex: 1 1 30%; min-width: 250px; margin-right: 10px; color: #fff">
+										<select class="res_select mb-3" required
+											style="flex: 1 1 30%; min-width: 250px;">
+											<option disabled selected>Jenis Kolaborasi</option>
+											<option>Narasumber / Tamu Podcast</option>
+											<option>Sponsorship / Endorse</option>
+											<option>Media Partner</option>
+											<option>Diskusi atau Komentar</option>
+										</select>
+									</div>
+
+									<textarea class="res_input mb-3" placeholder="Pesan atau detail lainnya..." rows="4"
+										required style="width: 100%; color: #fff"></textarea>
+
+									<div class="text-center">
+										<button class="res_button" type="submit"
+											style="padding: 12px 30px; font-size: 16px;">Kirim Pesan</button>
+									</div>
+								</form>
+							</div>
+
+							<p class="mt-4 text-white">Atau hubungi kami langsung di
+								<a href="mailto:official@matairs.id" class="text-white"><u>official@matairs.id</u></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer Logo -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_logo">
+							<div class="footer_logo_title">Matairs Podcast</div>
+							<div class="footer_logo_subtitle">Voices.</div>
+							<div class="footer_logo_subtitle">Vision.</div>
+							<div class="footer_logo_subtitle">Value.</div>
+
+						</div>
+						<div class="copyright">
+							<p style="line-height: 1.6;">&copy;
+								<script>document.write(new Date().getFullYear());</script> Matairs Podcast. All rights
+								reserved.
+								<br>Dibangun dengan semangat kolaboratif dan suara yang bermakna.
+							</p>
+						</div>
+					</div>
+
+					<!-- Footer About -->
+					<div class="col-lg-6 footer_col">
+						<div class="footer_about">
+							<p>
+								<strong>Matairs Podcast</strong> adalah ruang audio-visual yang menghadirkan narasi
+								tajam dan perspektif segar seputar dunia hiburan, politik, pendidikan, bisnis, dan
+								sains.
+								Dengan semangat keterbukaan dan keberagaman, kami menyuarakan insight dari berbagai
+								sudut pandang untuk membentuk percakapan yang relevan dan berdampak.
+							</p>
+						</div>
+					</div>
+
+					<!-- Footer Contact -->
+					<div class="col-lg-2 footer_col">
+						<div class="footer_contact">
+							<div class="footer_social mt-3"
+								style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+								<a href="https://www.instagram.com/matairsdotco/" target="_blank"
+									aria-label="Instagram">
+									<i class="fa-brands fa-instagram social-icon"></i>
+								</a>
+								<a href="https://www.youtube.com/@Matairdotco" target="_blank" aria-label="YouTube">
+									<i class="fa-brands fa-youtube social-icon"></i>
+								</a>
+								<a href="mailto:official@matairs.id" aria-label="Email">
+									<i class="fa-solid fa-envelope social-icon"></i>
+								</a>
+								<a href="https://www.tiktok.com/@matairsdotco" target="_blank" aria-label="TikTok">
+									<i class="fa-brands fa-tiktok social-icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+	<script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
